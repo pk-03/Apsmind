@@ -1,0 +1,148 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+/*    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    tap-highlight-color: rgba(255, 255, 255, 0);*/
+    scroll-behavior: smooth;
+}
+
+main {
+    background: transparent;
+
+}
+
+.navbar {
+    padding-top: 35px;
+}
+
+.nav-ul {
+    background-color: transparent;
+    color: #e6e6e6;
+    left: 218px;
+}
+
+.nav-li {
+    display: inline-block;
+    line-height: 53px;
+    padding: 0px 15px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #e6e6e6;
+}
+
+a:hover {
+    color: #bcbcc1;
+}
+
+.custom-btn {
+    background-color: white;
+    color: black;
+    margin-right: 80px;
+    font-size: 16px;
+    width: 105px;
+    height: 36px;
+}
+
+.custom-btn a {
+    color: black;
+}
+
+.carousel-item {
+    margin: auto;
+    margin-top: 65px;
+}
+
+.custom-img {
+    width: 750px;
+    margin: auto;
+}
+
+.custom-img2 {
+    width: 500px;
+    margin: auto;
+}
+
+.custom-img3 {
+    width: 444px;
+    width: 444px;
+    margin: auto;
+}
+
+.carousel-item h1 {
+    text-align: center;
+    color: #efeeed;
+}
+
+.carousel-item p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 38px;
+    margin-left: 512px;
+    margin-right: 513px;
+    color: #d6d1d1;
+    text-transform: capitalize;
+}
+
+#carouselExampleIndicators {
+    height: 870px;
+    */ background: -webkit-linear-gradient(0, #7edeff 0%, #0041b1 100%);
+    background: linear-gradient(0, #7edeff 0%, #0041b1 100%);
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 79%, 12% 100%, 0 84%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 12% 100%, 0 84%, 0 0);
+}
+
+.carousel-indicators {
+    bottom: 110px !important;
+
+}
+
+#contact {
+    /*   position: absolute;
+   top: 106px;
+   left: 36%;*/
+    box-shadow: 2px 11px 6px 2px #959090;
+    background-color: #f0f0f0;
+    padding: 33px;
+    width: 360px !important;
+    margin: 0 auto;
+}
+
+.fotter {
+    -webkit-clip-path: polygon(53% 14%, 100% 27%, 100% 75%, 84% 64%, 0 99%, 0 0);
+    clip-path: polygon(53% 14%, 100% 27%, 100% 75%, 84% 64%, 0 99%, 0 0);
+    background: -webkit-linear-gradient(to left bottom, #7edeff 0%, #0041b1 100%);
+    background: linear-gradient(0, #7edeff 0%, #0041b1 100%);
+    padding-top: 180px;
+    height: 500px;
+}
+
+#contact {
+    box-shadow: 0px 1px 6px 2px #959090;
+    background-color: white;
+    padding: 33px;
+    width: 360px !important;
+    margin: 0 auto;
+    top: 2507px;
+    left: 67%;
+    position: absolute;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.h2 {
+    color: white;
+    text-align: center;
+}
+
+.p {
+    font-size: 20px;
+    color: #e2dede;
+    text-align: center;
+}
